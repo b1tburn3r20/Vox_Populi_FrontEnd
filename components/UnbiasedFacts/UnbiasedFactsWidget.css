@@ -1,0 +1,20 @@
+.fact_container {
+  border: 2px solid black;
+  border-radius: 3rem;
+  display: inline-block;
+}
+.bottom_fact_container {
+  display: flex;
+  justify-content: flex-end;
+}
+.fact_contents {
+  padding: 2rem 2rem 0 2rem;
+}
+.fact_source {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 1.5rem;
+}
+.fact_source > a {
+  color: darkgray;
+}

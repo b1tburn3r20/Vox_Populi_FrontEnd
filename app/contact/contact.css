@@ -1,0 +1,28 @@
+.report_option_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.report_option {
+  border: 2px solid black;
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+  width: 30%;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+.report_option:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.option_report_a_bug:hover {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+.option_request_a_feature:hover {
+  background-color: rgba(0, 255, 0, 0.5);
+}
+.option_something_else:hover {
+  background-color: rgba(255, 255, 0, 0.5);
+}

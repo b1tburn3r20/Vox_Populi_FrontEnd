@@ -1,11 +1,11 @@
-import UnbiasedFacts from '../../components/UnbiasedFacts';
+import { UncontrolledPopover } from 'reactstrap';
+import UnbiasedFacts from '../../components/UnbiasedFacts/UnbiasedFacts';
 
 export default function Bills() {
   return (
     <>
-      <p>
-        These Are: <UnbiasedFacts />
-      </p>
+      <p>Bills page</p>
+      <UnbiasedFacts />
     </>
   );
 }

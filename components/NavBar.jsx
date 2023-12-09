@@ -43,9 +43,12 @@ const NavBar = () => {
                     <PageLink href="/csr" className="nav-link" testId="navbar-csr">
                       Client-side rendered page
                     </PageLink>
+                    <PageLink href="/contact" className="nav-link">
+                      Contact Us
+                    </PageLink>
                   </NavItem>
                   <NavItem>
-                    <PageLink href="/ssr" className="nav-link" testId="navbar-ssr">
+                    <PageLink href="/ContactUs" className="nav-link" testId="navbar-ssr">
                       Server-side rendered page
                     </PageLink>
                   </NavItem>
