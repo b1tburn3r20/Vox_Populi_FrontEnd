@@ -1,0 +1,64 @@
+.voxiumFooter {
+    background-color: var(--blue-2);
+    color: var(--purple-1);
+    text-align: center;
+    padding: 50px 0;
+}
+.voxiumFooter > *{
+    background-color: var(--blue-2);
+}
+.footerContent {
+    background-color: var(--blue-2);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footerSection {
+    background-color: var(--blue-2);
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footerSection h3 {
+    color: var(--purple-5);
+}
+
+.footerSection p, .footerSection a {
+    color: var(--purple-5);
+    line-height: 1.6;
+}
+
+.footerSection a {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.socialLinks a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.socialLinks a i {
+    color: var(--blue-2);
+    font-size: 18px; /* Adjust size as needed */
+}
+
+.footerBottom {
+    text-align: center;
+    color: var(--purple-5);
+    padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .footerContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerSection {
+        margin-bottom: 30px;
+    }
+}

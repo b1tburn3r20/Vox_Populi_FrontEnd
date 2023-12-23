@@ -1,4 +1,18 @@
+
+:root {
+  --purple-1: #2b2031;
+  --purple-2: #32243d;   /* Example of a hex color */
+  --purple-3: #472360;
+  --purple-4: #705c97;
+  --purple-5: #a4add4;    /* You can also use keyword colors */
+  --blue-1: #101018;
+  --blue-2: #13131D;
+}
+
 body {
+  background-color: var(--blue-1
+  ) !important;
+  color: var(--purple-5) !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -24,16 +38,20 @@ p code {
 .nav-item.dropdown .dropdown-item {
   padding: 0;
 }
-
-.nav-item.dropdown .dropdown-item a {
-  color: inherit;
+.navbar-nav .nav-link{
+  color: var(--purple-5) !important;
 }
+
 
 .nav-item.dropdown .dropdown-item .navbar-item {
   width: 100%;
   padding: .55rem 1.5rem;
 }
 
+
 .result-block-container .result-block {
   opacity: 1;
+}
+.navbar{
+  background: var(--blue-2) !important;
 }

@@ -25,13 +25,13 @@ const NavBar = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div className="nav-container" data-testid="navbar">
-      <Navbar color="light" light expand="md">
+    <div className="" data-testid="navbar">
+      <Navbar className="navbar" expand="md">
         <Container>
           <NavbarToggler onClick={toggle} data-testid="navbar-toggle" />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar data-testid="navbar-items">
-              <NavItem>
+              <NavItem className="navbar-item">
                 <PageLink href="/" className="nav-link" testId="navbar-home">
                   Home
                 </PageLink>

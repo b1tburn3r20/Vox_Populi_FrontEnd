@@ -3,7 +3,7 @@
 import './globals.css';
 import NavBar from '../components/NavBar';
 import { Container } from 'reactstrap';
-import Footer from '../components/Footer';
+import Footer from '../components/Footer/Footer';
 import React from 'react';
 import { UserProvider } from '@auth0/nextjs-auth0/client';
 
